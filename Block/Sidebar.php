@@ -123,31 +123,6 @@ class Sidebar extends Template
 
         $category = $this->_store->getStore()->getRootCategoryId();
 
-		// if ( $category == 'current_category_children'){
-		// 	$currentCategory = $this->_coreRegistry->registry('current_category');
-		// 	if($currentCategory){
-		// 		return $currentCategory->getId();
-		// 	}
-		// 	return 1;
-		// }
-
-		// if ( $category == 'current_category_parent_children'){
-		// 	$currentCategory = $this->_coreRegistry->registry('current_category');
-		// 	if($currentCategory){
-		// 		$topLevelParent = $currentCategory->getPath();
-		// 		$topLevelParentArray = explode("/", $topLevelParent);
-		// 		if(isset($topLevelParent)){
-		// 			return $topLevelParentArray[2];
-		// 		}
-		// 	}
-		// 	return 1;
-		// }
-
-  //       if ( $category === null )
-  //       {
-  //           return 1;
-  //       }
-
         return $category;
     }
 
@@ -204,8 +179,7 @@ class Sidebar extends Template
 
     /**
      * Retrieve subcategories
-     * DEPRECATED
-	 *
+     * 
      * @param $category
      *
      * @return array
