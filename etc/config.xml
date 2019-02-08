@@ -4,7 +4,6 @@
 		<sidebar>
 			<general>
 				<enabled>1</enabled>
-				<categorydepth>1</categorydepth>
 			</general>
 		</sidebar>
 	</default>
