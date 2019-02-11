@@ -77,6 +77,10 @@ class Sidebar extends Template
         parent::__construct($context, $data);
     }
 
+    public function isModuleEnabled(){
+        return $this->scopeConfig->getValue('flagship_sidebar/general/enabled');
+    }
+
     /*
     * Get owner name
     * @return string
