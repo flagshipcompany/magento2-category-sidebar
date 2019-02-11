@@ -41,7 +41,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
      */
     public function getConfigPath(
         $xmlPath,
-        $section = 'flagship_sidebar'
+        $section = 'flagship_sidebar_config'
     ) {
         return $section . '/' . $xmlPath;
     }

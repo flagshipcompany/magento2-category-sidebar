@@ -60,7 +60,6 @@ class Sidebar extends Template
 		\Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Catalog\Model\ResourceModel\Product\Collection $productCollectionFactory,
         \Magento\Catalog\Helper\Output $helper,
-		\Sebwite\Sidebar\Helper\Data $dataHelper,
         \Magento\Store\Model\StoreManagerInterface $storeManager,
         $data = [ ]
     )
@@ -71,7 +70,7 @@ class Sidebar extends Template
         $this->_categoryFactory          = $categoryFactory;
         $this->_productCollectionFactory = $productCollectionFactory;
         $this->helper                    = $helper;
-		$this->_dataHelper = $dataHelper;
+		$this->scopeConfig = $scopeConfig;
         $this->_store = $storeManager;
 
         parent::__construct($context, $data);
@@ -108,7 +107,7 @@ class Sidebar extends Template
          */
         $category = $this->_categoryFactory->create();
 
-		$categoryDepthLevel = $this->_dataHelper->getCategoryDepthLevel();
+		$categoryDepthLevel = 5;
 
         $storeCategories = $category->getCategories($this->getSelectedRootCategory(), $recursionLevel = $categoryDepthLevel, $sorted, $asCollection, $toLoad);
 
