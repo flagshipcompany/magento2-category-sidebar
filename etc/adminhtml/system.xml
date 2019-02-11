@@ -5,7 +5,7 @@
         <tab id="sebwite" sortOrder="200">
             <label>Sebwite</label>
         </tab>
-        <section id="sebwite_sidebar" showInDefault="1">
+        <section id="flagship_sidebar" showInDefault="1">
             <tab>sebwite</tab>
             <label>Sidebar</label>
             <resource>Magento_Config::config</resource>
