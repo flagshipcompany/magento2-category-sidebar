@@ -2,7 +2,7 @@
     <body>
 
 	<referenceContainer name="sidebar.additional">
-        <block class="Sebwite\Sidebar\Block\Sidebar" name="category-sidebar" template="Sebwite_Sidebar::sidebar.phtml" />
+        <block class="Flagship\Sidebar\Block\Sidebar" name="category-sidebar" template="Flagship_Sidebar::sidebar.phtml" />
     </referenceContainer>
 </body>
 </page>

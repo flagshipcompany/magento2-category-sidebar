@@ -1,7 +1,7 @@
 var config = {
     map: {
         '*': {
-            sidebarmodule: 'Sebwite_Sidebar/js/module'
+            sidebarmodule: 'Flagship_Sidebar/js/module'
         }
     }
 };

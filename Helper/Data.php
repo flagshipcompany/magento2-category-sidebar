@@ -1,13 +1,6 @@
 <?php
-/**
- * Class:Categories
- * Sebwite\Sidebar\Model\Config\Source
- *
- * @author      Vasilis Vasiloudis
- * @package     Sebwite\Sidebar
- * @copyright   Copyright (c) 2016, vvasiloud. All rights reserved
- */
-namespace Sebwite\Sidebar\Helper;
+
+namespace Flagship\Sidebar\Helper;
 
 use Magento\Framework\Module\ModuleListInterface;
 

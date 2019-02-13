@@ -1,6 +1,4 @@
-/* ==========================================================================
- Scripts voor de frontend
- ========================================================================== */
+
 require(['jquery'], function ($) {
     $(function () {
         $('.sidebar').on('click', '.o-list .expand, .o-list .expanded', function () {

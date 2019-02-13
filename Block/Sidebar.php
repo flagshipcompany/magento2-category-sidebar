@@ -1,17 +1,12 @@
-<?php namespace Sebwite\Sidebar\Block;
+<?php 
+
+namespace Flagship\Sidebar\Block;
 
 use Magento\Catalog\Model\ResourceModel\Eav\Attribute;
 use Magento\Catalog\Model\ResourceModel\Product;
 use Magento\Framework\View\Element\Template;
 
-/**
- * Class:Sidebar
- * Sebwite\Sidebar\Block
- *
- * @author      Sebwite
- * @package     Sebwite\Sidebar
- * @copyright   Copyright (c) 2015, Sebwite. All rights reserved
- */
+
 class Sidebar extends Template
 {
 
