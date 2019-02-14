@@ -16,6 +16,8 @@ This extension will add the ability to show category tree from the store root ca
 * Clear cache
 
 ## Configuration
-* Select the root category or current category option you want to use from the config page from the admin panel
-* Select children depth level
+* Enable the module from the config page from the admin panel
+* By default, the category tree will be visible on the front end for each category.
+* To display the category tree on the Home Page, from the admin panel, Content > Pages > Home Page > Design. Change Layout to 2-columns with left bar
+* Effect layout changes: `php bin/magento setup:upgrade`
 * Categories will appear in col.left sidebar of the theme

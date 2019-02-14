@@ -1,8 +1,8 @@
 {
-    "name": "sebwite/magento2-category-sidebar",
+    "name": "flagshipcompany/magento2-category-sidebar",
     "description": "Magento 2.0 sidebar",
     "type": "magento2-module",
-    "version": "2.0.3",
+    "version": "1.0.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
